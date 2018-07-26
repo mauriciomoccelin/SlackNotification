@@ -2,7 +2,7 @@
 
 namespace SlackNotification
 {
-    public interface ISlackNotification
+    public interface ISlackNotificationChannel
     {
         void Register(string token, string channel);
         Task SendNotificationAsync(string userName, string text);

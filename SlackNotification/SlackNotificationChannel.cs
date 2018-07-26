@@ -3,12 +3,12 @@ using System.Net.Http;
 
 namespace SlackNotification
 {
-    public class SlackNotification : ISlackNotification
+    public class SlackNotificationChannel : ISlackNotificationChannel
     {
         private static string _token;
         private static string _channel;
 
-        public SlackNotification()
+        public SlackNotificationChannel()
         {
             _token = string.Empty;
             _channel = string.Empty;
