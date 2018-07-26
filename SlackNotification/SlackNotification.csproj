@@ -3,6 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <Description>Enviar notificações para canais no Slack.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>@Mauricio Moccelin</Copyright>
+    <PackageLicenseUrl>https://www.gnu.org/licenses/licenses.pt-br.html</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/mauriciomoccelin/SlackNotification</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mauriciomoccelin/SlackNotification</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>Slack Message Channel API</PackageTags>
+    <PackageReleaseNotes>Enviar notificações para canais no Slack.</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
